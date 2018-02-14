@@ -1,0 +1,3 @@
+[submodule "Assets/SprUnity"]
+	path = Assets/SprUnity
+	url = https://github.com/sprphys/SprUnity
