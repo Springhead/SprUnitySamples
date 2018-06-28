@@ -202,6 +202,13 @@ MonoBehaviour:
       timeVaryFrictionB: 1800
       timeVaryFrictionC: 0
       frictionViscosity: 0
+      velocityFieldMode: 0
+      velocityFieldAxis:
+        _flag: 0
+        x: 0
+        y: 0
+        z: 0
+      velocityFieldMagnitude: 0
 --- !u!114 &181046598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,6 +260,7 @@ MonoBehaviour:
       z: 0
     dynamical: 1
     stationary: 0
+  centerOfMass: {fileID: 0}
   treeDepth: 0
 --- !u!1 &228489432
 GameObject:
@@ -387,6 +395,13 @@ MonoBehaviour:
       timeVaryFrictionB: 1800
       timeVaryFrictionC: 0
       frictionViscosity: 0
+      velocityFieldMode: 0
+      velocityFieldAxis:
+        _flag: 0
+        x: 0
+        y: 0
+        z: 0
+      velocityFieldMagnitude: 0
     radius: 1
     length: 1
 --- !u!23 &343302971
@@ -469,7 +484,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 364798611}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.514, y: 0.33, z: 0}
+  m_LocalPosition: {x: 0.514, y: 0.29, z: 0}
   m_LocalScale: {x: 0.0875, y: 1.55, z: 1}
   m_Children: []
   m_Father: {fileID: 844038331}
@@ -511,6 +526,13 @@ MonoBehaviour:
       timeVaryFrictionB: 1800
       timeVaryFrictionC: 0
       frictionViscosity: 0
+      velocityFieldMode: 0
+      velocityFieldAxis:
+        _flag: 0
+        x: 0
+        y: 0
+        z: 0
+      velocityFieldMagnitude: 0
     boxsize:
       _flag: 0
       x: 1
@@ -625,6 +647,13 @@ MonoBehaviour:
       timeVaryFrictionB: 1800
       timeVaryFrictionC: 0
       frictionViscosity: 0
+      velocityFieldMode: 0
+      velocityFieldAxis:
+        _flag: 0
+        x: 0
+        y: 0
+        z: 0
+      velocityFieldMagnitude: 0
     radius: 1
 --- !u!114 &535107230
 MonoBehaviour:
@@ -677,6 +706,7 @@ MonoBehaviour:
       z: 0
     dynamical: 1
     stationary: 0
+  centerOfMass: {fileID: 0}
   treeDepth: 0
 --- !u!23 &535107231
 MeshRenderer:
@@ -903,6 +933,7 @@ MonoBehaviour:
       z: 0
     dynamical: 0
     stationary: 0
+  centerOfMass: {fileID: 0}
   treeDepth: 0
 --- !u!23 &844038328
 MeshRenderer:
@@ -1008,6 +1039,13 @@ MonoBehaviour:
       timeVaryFrictionB: 1800
       timeVaryFrictionC: 0
       frictionViscosity: 0
+      velocityFieldMode: 0
+      velocityFieldAxis:
+        _flag: 0
+        x: 0
+        y: 0
+        z: 0
+      velocityFieldMagnitude: 0
     boxsize:
       _flag: 0
       x: 1
@@ -1067,7 +1105,8 @@ MonoBehaviour:
       x: 0
       y: -9.8
       z: 0
-    airResistanceRate: 1
+    airResistanceRateForVelocity: 1
+    airResistanceRateForAngularVelocity: 1
     contactTolerance: 0.002
     impactThreshold: 10
     frictionThreshold: 0.01
@@ -1164,6 +1203,7 @@ MonoBehaviour:
       z: 0
     dynamical: 1
     stationary: 0
+  centerOfMass: {fileID: 0}
   treeDepth: 0
 --- !u!23 &1031819088
 MeshRenderer:
@@ -1267,6 +1307,13 @@ MonoBehaviour:
       timeVaryFrictionB: 1800
       timeVaryFrictionC: 0
       frictionViscosity: 0
+      velocityFieldMode: 0
+      velocityFieldAxis:
+        _flag: 0
+        x: 0
+        y: 0
+        z: 0
+      velocityFieldMagnitude: 0
     boxsize:
       _flag: 0
       x: 1
@@ -1298,7 +1345,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1508333124}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.541, y: 0.33, z: 0}
+  m_LocalPosition: {x: -0.541, y: 0.29, z: 0}
   m_LocalScale: {x: 0.08750011, y: 1.5500004, z: 1}
   m_Children: []
   m_Father: {fileID: 844038331}
@@ -1340,6 +1387,13 @@ MonoBehaviour:
       timeVaryFrictionB: 1800
       timeVaryFrictionC: 0
       frictionViscosity: 0
+      velocityFieldMode: 0
+      velocityFieldAxis:
+        _flag: 0
+        x: 0
+        y: 0
+        z: 0
+      velocityFieldMagnitude: 0
     boxsize:
       _flag: 0
       x: 1
@@ -1468,6 +1522,13 @@ MonoBehaviour:
       timeVaryFrictionB: 1800
       timeVaryFrictionC: 0
       frictionViscosity: 0
+      velocityFieldMode: 0
+      velocityFieldAxis:
+        _flag: 0
+        x: 0
+        y: 0
+        z: 0
+      velocityFieldMagnitude: 0
     radius: 1
     length: 1
 --- !u!114 &1801432338
@@ -1521,6 +1582,7 @@ MonoBehaviour:
       z: 0
     dynamical: 1
     stationary: 0
+  centerOfMass: {fileID: 0}
   treeDepth: 0
 --- !u!23 &1801432339
 MeshRenderer:
