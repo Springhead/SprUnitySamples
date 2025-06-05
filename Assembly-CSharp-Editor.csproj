@@ -56,30 +56,13 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\SprUnity\Editor\Creature\Empty.cs" />
     <Compile Include="Assets\SprUnity\Editor\Physics\PHBallJointLimitBehaviorEditor.cs" />
-    <Compile Include="Assets\SprUnity\Editor\Creature\ActionStateWindowEditor.cs" />
-    <Compile Include="Assets\SprUnity\Editor\Creature\KeyPoseBoneWindow.cs" />
-    <Compile Include="Assets\SprUnity\Editor\Creature\PullbackPoseGroupWindow.cs" />
-    <Compile Include="Assets\SprUnity\Editor\Creature\KeyPoseWindow.cs" />
     <Compile Include="Assets\SprUnity\Editor\Base\RoundConePrimitive.cs" />
     <Compile Include="Assets\SprUnity\Editor\Physics\PH1DJointLimitBehaviorEditor.cs" />
-    <Compile Include="Assets\SprUnity\Editor\Creature\PullbackPoseBoneWindow.cs" />
-    <Compile Include="Assets\SprUnity\Editor\Base\SpringheadView.cs" />
+    <Compile Include="Assets\SprUnity\Editor\Base\BuiltInResourcesWindow.cs" />
     <Compile Include="Assets\SprUnity\Editor\Base\RoundConeEditor.cs" />
     <Compile Include="Assets\SprUnity\Editor\Base\UnityBuildClass.cs" />
-    <Compile Include="Assets\SprUnity\Editor\Creature\KeyPoseInterpolationWindow.cs" />
-    <Compile Include="Assets\SprUnity\Editor\Creature\ActionEditorWindowManager.cs" />
-    <Compile Include="Assets\SprUnity\Editor\Creature\KeyPoseNodeGraphEditor.cs" />
-    <Compile Include="Assets\SprUnity\Editor\Creature\ActionStateMachineWindow.cs" />
-    <Compile Include="Assets\SprUnity\Editor\Creature\BodyParameterWindow.cs" />
-    <Compile Include="Assets\SprUnity\Editor\Creature\PullbackPoseWindow.cs" />
     <Compile Include="Assets\SprUnity\Editor\Base\Base.cs" />
-    <Compile Include="Assets\SprUnity\Editor\Base\SubAssetEditor.cs" />
-    <Compile Include="Assets\SprUnity\Editor\Creature\ActionTransitionWindowEditor.cs" />
-    <Compile Include="Assets\SprUnity\Editor\Collision\SprCollision.cs" />
-    <Compile Include="Assets\SprUnity\Editor\Creature\ActionSelectWindow.cs" />
-    <Compile Include="Assets\SprUnity\Editor\Creature\ActionTimelineWindow.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
